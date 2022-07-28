@@ -24,3 +24,63 @@ a {
     background: black;
   }
 }
+.text-input:focus {
+  border: 2px solid rgb(79, 216, 225) !important;
+}
+.css-viou3o-MuiAutocomplete-root .MuiOutlinedInput-root {
+  padding: 2px;
+}
+.custom-input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.hello {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  width: 30%;
+}
+.custom-input:active {
+  border: none;
+}
+.login-btn:active {
+  border: none;
+}
+.custom-input:focus {
+  border: none;
+}
+.hello2 {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  width: 40%;
+}
+.login-btn {
+  border: none;
+  border-bottom: 2px solid black;
+  background: none;
+}
+.login-btn2 {
+  border: none;
+  background: none;
+}
+.login-btn:hover {
+  border: none;
+}
+.color-btn {
+  position: absolute;
+  top: 44px;
+  /* left: 1079px; */
+}
+.auth-btn {
+  padding: 10px 0px;
+  border-radius: 5px;
+  background: none;
+  font-weight: bold;
+}
+.auth-btn:hover {
+  border: 3px solid black;
+}
